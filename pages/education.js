@@ -65,4 +65,10 @@ const Education = () => {
   );
 };
 
+export const getStaticProps = () => {
+  return {
+    props: {},
+  };
+};
+
 export default Education;

@@ -80,4 +80,10 @@ const FreeTime = () => {
   );
 };
 
+export const getStaticProps = () => {
+  return {
+    props: {},
+  };
+};
+
 export default FreeTime;

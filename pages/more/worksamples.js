@@ -123,4 +123,10 @@ const WorkSamples = () => {
   );
 };
 
+export const getStaticProps = () => {
+  return {
+    props: {},
+  };
+};
+
 export default WorkSamples;

@@ -73,4 +73,10 @@ const CodingProfile = () => {
   );
 };
 
+export const getStaticProps = () => {
+  return {
+    props: {},
+  };
+};
+
 export default CodingProfile;

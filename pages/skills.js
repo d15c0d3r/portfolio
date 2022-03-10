@@ -33,4 +33,10 @@ const Skills = () => {
   );
 };
 
+export const getStaticProps = () => {
+  return {
+    props: {},
+  };
+};
+
 export default Skills;

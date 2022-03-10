@@ -56,4 +56,10 @@ const Experience = () => {
   );
 };
 
+export const getStaticProps = () => {
+  return {
+    props: {},
+  };
+};
+
 export default Experience;

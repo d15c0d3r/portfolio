@@ -94,4 +94,10 @@ const Personality = () => {
   );
 };
 
+export const getStaticProps = () => {
+  return {
+    props: {},
+  };
+};
+
 export default Personality;

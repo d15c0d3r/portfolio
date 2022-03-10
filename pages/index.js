@@ -39,3 +39,9 @@ export default function Home() {
     </>
   );
 }
+
+export const getStaticProps = () => {
+  return {
+    props: {},
+  };
+};
