@@ -1,9 +1,17 @@
 import { Box, Center, Stack, Text } from "@chakra-ui/react";
 import { Image } from "@chakra-ui/react";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Naga Narasimha | Portfolio</title>
+        <meta
+          name="description"
+          content="This is the Main Page for the Naga Narasimha's Portfolio"
+        />
+      </Head>
       <Stack dir="row" spacing={"50px"} minH="80vh">
         <Box h="48vh">
           <Center>

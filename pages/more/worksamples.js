@@ -1,8 +1,16 @@
 import { Box, Stack, Text, Center, Link } from "@chakra-ui/react";
+import Head from "next/head";
 
 const WorkSamples = () => {
   return (
     <>
+      <Head>
+        <title>Naga Narasimha | Works</title>
+        <meta
+          name="description"
+          content="This is the Work Samples Page for the Naga Narasimha's Portfolio"
+        />
+      </Head>
       <Box m={["22px", "33px", "44px"]} minH="100vh">
         <Stack direction="column">
           <Center>

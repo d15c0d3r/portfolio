@@ -1,8 +1,17 @@
 import { Text, Divider, Stack } from "@chakra-ui/react";
 
+import Head from "next/head";
+
 const Education = () => {
   return (
     <>
+      <Head>
+        <title>Naga Narasimha | Education</title>
+        <meta
+          name="description"
+          content="This is the Education Page for the Naga Narasimha's Portfolio"
+        />
+      </Head>
       <Stack
         dir="column"
         spacing={"15px"}

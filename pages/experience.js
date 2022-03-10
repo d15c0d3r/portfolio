@@ -1,4 +1,5 @@
 import { Text, Center, Divider, Stack, Image } from "@chakra-ui/react";
+import Head from "next/head";
 import { motion } from "framer-motion";
 
 import RolePopover from "../src/components/ui/rolepopover";
@@ -6,6 +7,13 @@ import RolePopover from "../src/components/ui/rolepopover";
 const Experience = () => {
   return (
     <>
+      <Head>
+        <title>Naga Narasimha | Experience</title>
+        <meta
+          name="description"
+          content="This is the Experience Page for the Naga Narasimha's Portfolio"
+        />
+      </Head>
       <Stack dir="column" spacing={"20px"} mt="20px">
         <Center>
           <Text fontSize={["22px", "22px", "33px", "44px"]} fontWeight="bold">

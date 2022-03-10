@@ -1,8 +1,17 @@
 import { Box, Stack, Text, Center } from "@chakra-ui/react";
 
+import Head from "next/head";
+
 const FreeTime = () => {
   return (
     <>
+      <Head>
+        <title>Naga Narasimha | Hobbies & Interests</title>
+        <meta
+          name="description"
+          content="This is the Hobbies & Interests Page for the Naga Narasimha's Portfolio"
+        />
+      </Head>
       <Box m={["22px", "33px", "44px"]} minH="100vh">
         <Stack direction="column">
           <Center>
@@ -23,9 +32,9 @@ const FreeTime = () => {
                 personality. His aggression and Passion for game is commendable.
                 I support Royal Challengers banglore in IPL, now later and
                 forever.. I also watch Kabaddi, Hockey and Badminton. I play
-                casual Badminton and cricket if my time permits. I{"'"}ve captained
-                a cricket team in School level in my 10th class Sports meet and
-                we ended up bottom in that tournament.
+                casual Badminton and cricket if my time permits. I{"'"}ve
+                captained a cricket team in School level in my 10th class Sports
+                meet and we ended up bottom in that tournament.
               </Text>
             </Stack>
           </Center>
@@ -69,8 +78,8 @@ const FreeTime = () => {
               </Text>
               <Text mt="50px" fontSize={["15px", "15px", "20px", "25px"]}>
                 I also love to capture great photos and I use my Oneplus 6 for
-                it. Iam an occasional memer and a poet, and I{"'"}d rather call my
-                poems as rap lyrics.
+                it. Iam an occasional memer and a poet, and I{"'"}d rather call
+                my poems as rap lyrics.
               </Text>
             </Stack>
           </Center>

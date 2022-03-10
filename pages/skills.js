@@ -1,4 +1,5 @@
 import { SimpleGrid, Box } from "@chakra-ui/react";
+import Head from "next/head";
 
 import Skillbox from "../src/components/ui/skillbox";
 
@@ -18,7 +19,14 @@ const skills = [
 const Skills = () => {
   return (
     <>
-      <Box m={["50px","100px", "120px"]}>
+      <Head>
+        <title>Naga Narasimha | Skills</title>
+        <meta
+          name="description"
+          content="This is the Skills Page for the Naga Narasimha's Portfolio"
+        />
+      </Head>
+      <Box m={["50px", "100px", "120px"]}>
         <SimpleGrid minChildWidth="250px" spacing="50px" mb="20px">
           {skills.map((skill) => (
             <Skillbox

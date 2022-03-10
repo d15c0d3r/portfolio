@@ -1,8 +1,17 @@
 import { Box, Stack, Text, Center, Link, Image } from "@chakra-ui/react";
 
+import Head from "next/head";
+
 const CodingProfile = () => {
   return (
     <>
+      <Head>
+        <title>Naga Narasimha | Coding Profile</title>
+        <meta
+          name="description"
+          content="This is the Coding Profile Page for the Naga Narasimha's Portfolio"
+        />
+      </Head>
       <Box m="44px" minH="50vh">
         <Stack direction="column" spacing="0px">
           <Center>

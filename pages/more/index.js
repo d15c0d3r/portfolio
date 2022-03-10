@@ -1,13 +1,21 @@
 import { Box, Center, Stack, Text } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
+import Head from "next/head";
 import Link from "next/link";
 
 const MotionCenter = motion(Center);
 
-const Personality = () => {
+const More = () => {
   return (
     <>
+      <Head>
+        <title>Naga Narasimha | More</title>
+        <meta
+          name="description"
+          content="This is the More.. Page for the Naga Narasimha's Portfolio"
+        />
+      </Head>
       <Box h="100vh">
         <Center h="100%">
           <Stack spacing="50px" w={["90%", "80%", "70%", "60%"]}>
@@ -100,4 +108,4 @@ export const getStaticProps = () => {
   };
 };
 
-export default Personality;
+export default More;
