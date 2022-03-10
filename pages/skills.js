@@ -18,7 +18,7 @@ const skills = [
 const Skills = () => {
   return (
     <>
-      <Box mt="120px" ml="120px" mr="120px" mb="120px">
+      <Box m={["50px","100px", "120px"]}>
         <SimpleGrid minChildWidth="250px" spacing="50px" mb="20px">
           {skills.map((skill) => (
             <Skillbox
