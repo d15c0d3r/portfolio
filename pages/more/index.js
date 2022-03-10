@@ -36,7 +36,7 @@ const More = () => {
                   <Text
                     as="kbd"
                     color="#333300"
-                    fontSize={"40px"}
+                    fontSize={["20px", "30px", "40px", "40px"]}
                     fontWeight="bold"
                   >
                     {"<"}Work Samples{"/>"}
@@ -62,7 +62,7 @@ const More = () => {
                   <Text
                     as="kbd"
                     color="#333300"
-                    fontSize={"40px"}
+                    fontSize={["20px", "30px", "40px", "40px"]}
                     fontWeight="bold"
                   >
                     {"<"}Hobbies{"/>"}
@@ -87,7 +87,7 @@ const More = () => {
                   <Text
                     as="kbd"
                     color="#333300"
-                    fontSize={"40px"}
+                    fontSize={["20px", "30px", "40px", "40px"]}
                     fontWeight="bold"
                   >
                     {"<"}Coding Profile{"/>"}
