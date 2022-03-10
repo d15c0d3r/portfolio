@@ -20,7 +20,7 @@ export default function Home() {
         </Box>
         <Center>
           <Text fontSize={["25px", "30px", "50px", "70px"]} fontWeight="bold">
-            Hi! I'm{" "}
+            Hi! I{"'"}m{" "}
             <Text as="kbd">
               {"<"}Naga Narasimha{"/>"}
             </Text>

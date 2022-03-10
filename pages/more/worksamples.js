@@ -79,7 +79,7 @@ const WorkSamples = () => {
                 Others
               </Text>
               <Text mt="50px" fontSize={["15px", "15px", "20px", "25px"]}>
-                Few small projects I've done are WebScraping using
+                Few small projects I{"'"}ve done are WebScraping using
                 beautifulsoup, TicTacToe, URL Shortener & FoodCart using React,
                 Current Portfolio using Next.js. Can be found on my Github
               </Text>

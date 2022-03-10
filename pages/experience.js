@@ -9,7 +9,7 @@ const Experience = () => {
       <Stack dir="column" spacing={"20px"} mt="20px">
         <Center>
           <Text fontSize={["22px", "22px", "33px", "44px"]} fontWeight="bold">
-            I'm a Fresher who'll be graduating in 2022
+            I{"'"}m a Fresher who{"'"}ll be graduating in 2022
           </Text>
         </Center>
         <Center w="100%">

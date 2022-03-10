@@ -23,7 +23,7 @@ const FreeTime = () => {
                 personality. His aggression and Passion for game is commendable.
                 I support Royal Challengers banglore in IPL, now later and
                 forever.. I also watch Kabaddi, Hockey and Badminton. I play
-                casual Badminton and cricket if my time permits. I've captained
+                casual Badminton and cricket if my time permits. I{"'"}ve captained
                 a cricket team in School level in my 10th class Sports meet and
                 we ended up bottom in that tournament.
               </Text>
@@ -55,7 +55,7 @@ const FreeTime = () => {
                 I watch movies occasionally but my favourite actor always been
                 Suriya Sivakumar. Surfing youtube, scrolling memes is what I do
                 in my quick free time. I watch Anime and Webseries if they are
-                truely connected to me and has a great plot. Few Anime's to
+                truely connected to me and has a great plot. Few Anime{"'"}s to
                 mention are Naruto, Seven Deadly Sins, Parasite, Assassination
                 Classroom, Bleach, Death Note, Boruto, etc.
               </Text>
@@ -69,7 +69,7 @@ const FreeTime = () => {
               </Text>
               <Text mt="50px" fontSize={["15px", "15px", "20px", "25px"]}>
                 I also love to capture great photos and I use my Oneplus 6 for
-                it. Iam an occasional memer and a poet, and I'd rather call my
+                it. Iam an occasional memer and a poet, and I{"'"}d rather call my
                 poems as rap lyrics.
               </Text>
             </Stack>
