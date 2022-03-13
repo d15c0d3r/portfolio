@@ -112,16 +112,15 @@ const WorkSamples = () => {
               <Text mt="50px" fontSize={["15px", "15px", "20px", "25px"]}>
                 Currently working on BlockChain technology to secure academic
                 certificate and for accurate management and to avoid forge
-                certificate we are converting all certificates into digital
-                signatures and this digital signatures will be stored in
+                certificate by converting certificates into digital
+                signatures and these digital signatures are be stored in
                 Blockchain server as this Blockchain server support tamper proof
-                data storage and nobody can hack or alter its data and if by an
-                chance if its data alter then verification get failed at next
+                data storage and nobody can hack or alter its data and if by any
+                chance if it did data alter, then certificate verification gets failed at next
                 block storage and user may get intimation about data alter. In
-                Blockchain technology same transaction data stored at multiple
-                server with hash code verification and if data alter at one
-                server then it will detected from other server as for same data
-                hash code will get different.
+                Blockchain technology, the same transaction data are stored at multiple
+                servers with hash code verification and if data alters at a
+                server, then it{"'"}ll be detected from other server.
               </Text>
             </Stack>
           </Center>
