@@ -31,8 +31,7 @@ const RolePopover = () => {
               <PopoverCloseButton />
               <PopoverBody>
                 <Box>
-                  Currently going through an Internship working on Enterprise
-                  Cloud Applications
+                  Currently going through an Internship and Training on Data Insights
                 </Box>
               </PopoverBody>
               <PopoverFooter>
