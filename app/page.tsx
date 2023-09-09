@@ -2,7 +2,7 @@ import { Box, Center, Stack, Text } from "@chakra-ui/react";
 import { Image } from "@chakra-ui/react";
 import Head from "next/head";
 
-export default function Home() {
+const Home: React.FC<{}> = () => {
   return (
     <>
       <Head>
@@ -46,4 +46,6 @@ export default function Home() {
       </Stack>
     </>
   );
-}
+};
+
+export default Home;

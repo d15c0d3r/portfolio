@@ -1,17 +1,20 @@
 "use client";
 
 import { Box } from "@chakra-ui/react";
-
 import Navbar from "./navbar";
 import Footer from "./footer";
-import { ThemeContextProvider } from "../../store/contexts/theme";
+import { ThemeContextProvider } from "../../store/theme";
+import { ReactNode } from "react";
 
-const Layout = (props) => {
+type TLayout = {
+  children: ReactNode;
+};
+const Layout: React.FC<TLayout> = ({ children }) => {
   return (
     <>
       <ThemeContextProvider>
         <Navbar />
-        <Box minH={"100vh"}>{props.children}</Box>
+        <Box minH={"100vh"}>{children}</Box>
         <Footer />
       </ThemeContextProvider>
     </>

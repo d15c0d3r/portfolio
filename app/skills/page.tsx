@@ -1,9 +1,12 @@
 import { SimpleGrid, Box } from "@chakra-ui/react";
 import Head from "next/head";
-
 import Skillbox from "../../src/components/ui/skillbox";
 
-const skills = [
+type TSkill = {
+  title: string;
+  imgSrc: string;
+};
+const skills: TSkill[] = [
   { title: "React", imgSrc: "react.png" },
   { title: "Next", imgSrc: "next.png" },
   { title: "Java", imgSrc: "java.png" },
@@ -16,7 +19,7 @@ const skills = [
   { title: "Node ", imgSrc: "node.png" },
 ];
 
-const Skills = () => {
+const Skills: React.FC<{}> = () => {
   return (
     <>
       <Head>

@@ -1,12 +1,20 @@
 import { ChakraProvider } from "@chakra-ui/react";
 import Layout from "../src/components/layout/layout";
 
-export const metadata = {
+type TMetaData = {
+  title: string;
+  description: string;
+};
+
+export const metadata: TMetaData = {
   title: "NagaNarasimha",
   description: "NagaNarasimha's Portfolio",
 };
 
-export default function RootLayout({ children }) {
+type TRootLayout = {
+  children: React.FC;
+};
+const RootLayout: React.FC<TRootLayout> = ({ children }) => {
   return (
     <html lang="en">
       <body>
@@ -16,4 +24,6 @@ export default function RootLayout({ children }) {
       </body>
     </html>
   );
-}
+};
+
+export default RootLayout;
