@@ -20,7 +20,7 @@ const More = () => {
         <Center h="100%">
           <Stack spacing="50px" w={["90%", "80%", "70%", "60%"]}>
             <Link href="/more/worksamples">
-              <a>
+              
                 <MotionCenter
                   w="100%"
                   h="10vh"
@@ -42,11 +42,11 @@ const More = () => {
                     {"<"}Work Samples{"/>"}
                   </Text>
                 </MotionCenter>
-              </a>
+              
             </Link>
 
             <Link href="/more/freetime">
-              <a>
+              
                 <MotionCenter
                   w="100%"
                   h="10vh"
@@ -68,10 +68,10 @@ const More = () => {
                     {"<"}Hobbies{"/>"}
                   </Text>
                 </MotionCenter>
-              </a>
+              
             </Link>
             <Link href="/more/codingprofile">
-              <a>
+            
                 <MotionCenter
                   w="100%"
                   h="10vh"
@@ -93,7 +93,7 @@ const More = () => {
                     {"<"}Coding Profile{"/>"}
                   </Text>
                 </MotionCenter>
-              </a>
+              
             </Link>
           </Stack>
         </Center>

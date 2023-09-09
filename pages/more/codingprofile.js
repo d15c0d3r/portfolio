@@ -45,14 +45,14 @@ const CodingProfile = () => {
                   <Center>
                     <Text fontSize={["15px", "15px", "20px", "25px"]}>
                       <Link href="https://www.hackerrank.com/certificates/65778adf0e06">
-                        <a> Problem Solving Intermediate (6 stars)</a>
+                         Problem Solving Intermediate (6 stars)
                       </Link>
                     </Text>
                   </Center>
                   <Center>
                     <Text fontSize={["15px", "15px", "20px", "25px"]}>
                       <Link href="https://www.hackerrank.com/certificates/bacd9dcb8e1d">
-                        <a> Python Intermediate (5 stars)</a>
+                         Python Intermediate (5 stars)
                       </Link>
                     </Text>
                   </Center>

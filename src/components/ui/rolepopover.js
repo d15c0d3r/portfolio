@@ -31,16 +31,15 @@ const RolePopover = () => {
               <PopoverCloseButton />
               <PopoverBody>
                 <Box>
-                  Currently going through an Internship and Training on Data Insights
+                  Currently going through an Internship and Training on Data
+                  Insights
                 </Box>
               </PopoverBody>
               <PopoverFooter>
                 <Link href="https://www.teksystems.com/en-in">
-                  <a>
-                    <Text>
-                      goto {"<"}TEKsystems{"/>"}
-                    </Text>
-                  </a>
+                  <Text>
+                    goto {"<"}TEKsystems{"/>"}
+                  </Text>
                 </Link>
               </PopoverFooter>
             </PopoverContent>

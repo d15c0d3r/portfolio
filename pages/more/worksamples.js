@@ -42,7 +42,7 @@ const WorkSamples = () => {
               >
                 Work Repository :{" "}
                 <Link href="https://github.com/thatviper/mini-realestate-app">
-                  <a>https://github.com/thatviper/mini-realestate-app</a>
+                  https://github.com/thatviper/mini-realestate-app
                 </Link>
               </Text>
               <Text
@@ -52,7 +52,7 @@ const WorkSamples = () => {
               >
                 Deployed Here :{" "}
                 <Link href="https://mini-realestate-app.vercel.app/">
-                  <a>https://mini-realestate-app.vercel.app/</a>
+                  https://mini-realestate-app.vercel.app/
                 </Link>
               </Text>
             </Stack>
@@ -98,7 +98,7 @@ const WorkSamples = () => {
               >
                 Github Link :{" "}
                 <Link href="https://github.com/thatviper">
-                  <a>https://github.com/thatviper</a>
+                  https://github.com/thatviper
                 </Link>
               </Text>
             </Stack>

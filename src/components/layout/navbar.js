@@ -42,11 +42,11 @@ const Navbar = () => {
             {links.map((link) => (
               <Center key={link.title}>
                 <Link href={`/${link.href}`}>
-                  <a>
+                  
                     <Text fontSize={["30px", "30px", "20px"]}>
                       {link.title}
                     </Text>
-                  </a>
+                  
                 </Link>
               </Center>
             ))}
