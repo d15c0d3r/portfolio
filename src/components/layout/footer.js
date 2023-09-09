@@ -19,17 +19,17 @@ const Footer = () => {
           <Stack direction="row">
             <Center>
               <Link href="https://www.linkedin.com/in/naga-narasimha-reddy-challa-4ba651216/">
-                <AiFillLinkedin size={"50px"} />
+                <AiFillLinkedin size="50px" />
               </Link>
             </Center>
-            <Link href="https://github.com/thatviper">
+            <Link href="https://github.com/disc0der">
               <Center>
-                <AiFillGithub size={"50px"} />
+                <AiFillGithub size="50px" />
               </Center>
             </Link>
-            <Link href="https://www.instagram.com/challa.exe/">
+            <Link href="https://www.instagram.com/nax_ingram/">
               <Center>
-                <AiFillInstagram size={"50px"} />
+                <AiFillInstagram size="50px" />
               </Center>
             </Link>
           </Stack>

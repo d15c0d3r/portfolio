@@ -1,7 +1,7 @@
 import { SimpleGrid, Box } from "@chakra-ui/react";
 import Head from "next/head";
 
-import Skillbox from "../src/components/ui/skillbox";
+import Skillbox from "../../src/components/ui/skillbox";
 
 const skills = [
   { title: "React", imgSrc: "react.png" },
@@ -39,12 +39,6 @@ const Skills = () => {
       </Box>
     </>
   );
-};
-
-export const getStaticProps = () => {
-  return {
-    props: {},
-  };
 };
 
 export default Skills;

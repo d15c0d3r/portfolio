@@ -11,7 +11,7 @@ const links = [
   { href: "experience", title: "Experience" },
   { href: "education", title: "Education" },
   { href: "skills", title: "Skills" },
-  { href: "more", title: "More.." },
+  { href: "worksamples", title: "WorkSamples" },
 ];
 
 const Navbar = () => {
@@ -42,11 +42,7 @@ const Navbar = () => {
             {links.map((link) => (
               <Center key={link.title}>
                 <Link href={`/${link.href}`}>
-                  
-                    <Text fontSize={["30px", "30px", "20px"]}>
-                      {link.title}
-                    </Text>
-                  
+                  <Text fontSize={["30px", "30px", "20px"]}>{link.title}</Text>
                 </Link>
               </Center>
             ))}

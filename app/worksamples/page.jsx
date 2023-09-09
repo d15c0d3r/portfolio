@@ -41,8 +41,8 @@ const WorkSamples = () => {
                 color={"teal"}
               >
                 Work Repository :{" "}
-                <Link href="https://github.com/thatviper/mini-realestate-app">
-                  https://github.com/thatviper/mini-realestate-app
+                <Link href="https://github.com/disc0der/mini-realestate-app">
+                  https://github.com/disc0der/mini-realestate-app
                 </Link>
               </Text>
               <Text
@@ -97,8 +97,8 @@ const WorkSamples = () => {
                 color={"teal"}
               >
                 Github Link :{" "}
-                <Link href="https://github.com/thatviper">
-                  https://github.com/thatviper
+                <Link href="https://github.com/disc0der">
+                  https://github.com/disc0der
                 </Link>
               </Text>
             </Stack>
@@ -112,15 +112,15 @@ const WorkSamples = () => {
               <Text mt="50px" fontSize={["15px", "15px", "20px", "25px"]}>
                 Currently working on BlockChain technology to secure academic
                 certificate and for accurate management and to avoid forge
-                certificate by converting certificates into digital
-                signatures and these digital signatures are be stored in
-                Blockchain server as this Blockchain server support tamper proof
-                data storage and nobody can hack or alter its data and if by any
-                chance if it did data alter, then certificate verification gets failed at next
+                certificate by converting certificates into digital signatures
+                and these digital signatures are be stored in Blockchain server
+                as this Blockchain server support tamper proof data storage and
+                nobody can hack or alter its data and if by any chance if it did
+                data alter, then certificate verification gets failed at next
                 block storage and user may get intimation about data alter. In
-                Blockchain technology, the same transaction data are stored at multiple
-                servers with hash code verification and if data alters at a
-                server, then it{"'"}ll be detected from other server.
+                Blockchain technology, the same transaction data are stored at
+                multiple servers with hash code verification and if data alters
+                at a server, then it{"'"}ll be detected from other server.
               </Text>
             </Stack>
           </Center>
@@ -128,12 +128,6 @@ const WorkSamples = () => {
       </Box>
     </>
   );
-};
-
-export const getStaticProps = () => {
-  return {
-    props: {},
-  };
 };
 
 export default WorkSamples;

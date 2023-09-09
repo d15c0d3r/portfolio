@@ -1,8 +1,10 @@
+"use client";
+
 import { Text, Center, Divider, Stack, Image } from "@chakra-ui/react";
 import Head from "next/head";
 import { motion } from "framer-motion";
 
-import RolePopover from "../src/components/ui/rolepopover";
+import RolePopover from "../../src/components/ui/rolepopover";
 
 const Experience = () => {
   return (
@@ -62,12 +64,6 @@ const Experience = () => {
       </Stack>
     </>
   );
-};
-
-export const getStaticProps = () => {
-  return {
-    props: {},
-  };
 };
 
 export default Experience;
