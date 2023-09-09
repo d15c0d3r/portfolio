@@ -2,7 +2,7 @@ import { Text, Divider, Stack } from "@chakra-ui/react";
 
 import Head from "next/head";
 
-const Education = () => {
+const Education: React.FC<{}> = () => {
   return (
     <>
       <Head>

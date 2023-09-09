@@ -1,12 +1,13 @@
 import { Stack, Text, Box, IconButton, Center } from "@chakra-ui/react";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
-
 import Link from "next/link";
-import ThemeContext from "../../store/contexts/theme";
+import useTheme from "../../store/hooks/useTheme";
 
-import { useContext } from "react";
-
-const links = [
+type TLink = {
+  href: string;
+  title: string;
+};
+const links: TLink[] = [
   { href: "", title: "/" },
   { href: "experience", title: "Experience" },
   { href: "education", title: "Education" },
@@ -14,12 +15,12 @@ const links = [
   { href: "worksamples", title: "WorkSamples" },
 ];
 
-const Navbar = () => {
-  const { bgColor, toggleColorMode, colorMode } = useContext(ThemeContext);
+const Navbar: React.FC<{}> = () => {
+  const { bgColorMode, toggleColorMode, colorMode } = useTheme();
 
   return (
     <>
-      <Box bg={bgColor}>
+      <Box bg={bgColorMode}>
         <Center>
           <Stack
             direction={["column", "column", "row"]}
@@ -36,7 +37,8 @@ const Navbar = () => {
                     <SunIcon color={"white"} />
                   )
                 }
-                colorScheme={bgColor}
+                colorScheme={bgColorMode}
+                aria-label="color mode toggle button"
               />
             </Center>
             {links.map((link) => (

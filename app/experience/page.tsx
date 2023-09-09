@@ -1,12 +1,12 @@
 "use client";
 
 import { Text, Center, Divider, Stack, Image } from "@chakra-ui/react";
-import Head from "next/head";
 import { motion } from "framer-motion";
+import Head from "next/head";
 
 import RolePopover from "../../src/components/ui/rolepopover";
 
-const Experience = () => {
+const Experience: React.FC<{}> = () => {
   return (
     <>
       <Head>
@@ -51,7 +51,6 @@ const Experience = () => {
                   alt="TEKSystems"
                   loading="lazy"
                   shadow={"xl"}
-                  type="solid"
                   mb="10px"
                 />
                 <Center>

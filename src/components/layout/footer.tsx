@@ -1,16 +1,12 @@
 import { Box, Center, Stack, Text, Link } from "@chakra-ui/react";
-
 import { AiFillInstagram, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import useTheme from "../../store/hooks/useTheme";
 
-import ThemeContext from "../../store/contexts/theme";
-
-import { useContext } from "react";
-
-const Footer = () => {
-  const { bgColor } = useContext(ThemeContext);
+const Footer: React.FC<{}> = () => {
+  const { bgColorMode } = useTheme();
 
   return (
-    <Box bg={bgColor} minH="7vh" w="100%" boxShadow="xl">
+    <Box bg={bgColorMode} minH="7vh" w="100%" boxShadow="xl">
       <Stack dir="column" p="20px">
         <Center>
           <Text fontSize={["20px", "33px"]}>Around the Web</Text>

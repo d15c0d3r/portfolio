@@ -1,7 +1,7 @@
 import { Box, Stack, Text, Center, Link } from "@chakra-ui/react";
 import Head from "next/head";
 
-const WorkSamples = () => {
+const WorkSamples: React.FC<{}> = () => {
   return (
     <>
       <Head>
