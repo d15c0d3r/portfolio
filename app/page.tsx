@@ -40,7 +40,8 @@ const Home: React.FC<{}> = () => {
             as="i"
             mb={["0px", "0px", "20px"]}
           >
-            Glad to meet you Mister/ Miss, You can know more about me here!
+            FullStack developer with 1+ years of industry experience. You can
+            know more about me here!
           </Text>
         </Center>
       </Stack>
